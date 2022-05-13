@@ -7,3 +7,91 @@
 body{
     font-family: 'Josefin Sans', sans-serif;;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header--img{
+    width: 60px;
+    height: 60px;
+}
+
+.header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header--list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.header--list li a:hover{
+    text-decoration: underline;
+}
+
+.main--container{
+    display: flex;
+    width: 75%;
+    margin: 20 auto;
+    justify-content: space-between;
+}
+
+main .main--container .main--img{
+    width: 300px;
+    border-radius:  15px;
+    padding: 15px;
+}
+
+.main--info{
+    width: 50%;
+}
+
+.info--name{
+    font-size:30px;
+    margin-bottom: 15px;
+}
+
+.info--description{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.main--links {
+    margin: 20px 0;
+}
+
+.main--link{
+    padding: 3% 2%;
+    border-radius: 20px;
+    margin: 3% 2%;
+}
+
+.main--link_purple{
+    background-color: #e15de0;
+    color: white;
+}
+
+.main--link_white{
+    background-color: #e15de0;
+    color: white;
+}
+
+.main--social-media{
+    display: flex;
+    align-items: center;
+}
+
+.main--social-media h2{
+    font-size: 20px;
+    margin-right: 10px;
+}

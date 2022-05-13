@@ -11,13 +11,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8850d7e6c3.js" crossorigin="anonymous"></script>
         <title>Portafolio Jeimy</title>
     </head>
 
     <body>
-        <header>
-            <nav>
-                <ul>
+        <header class="header">
+            <img class="header--img" src="logoJeimy.png" alt ="Logo Jeimy">
+            <a href="./">Home</a>
+            <nav class="header--nav">
+                <ul class="header--list">
                     <li>
                         <a href="./contact.html">Contact</a>
                     </li>
@@ -30,16 +33,40 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <img src="https://picsum.photos/200" alt="Foto de perfil">
-            <h2> Jeimy Arias portafolio</h2>
-            <p>Aquí la descripción</p>
+        <main class="main">
+            <div class="main--container">
+                <div class="img--container">
+                    <img class="main--img" src="fotoPerfil.jpeg" alt="Foto de perfil">
+                </div>
+                <div class="main--info">
+                    <h2 class="info--name"> Jeimy Arias full-stack web developer</h2>
+                    <p class="info--description"> Full-stack web developer in training, with basic knowledge in the programming languages Java, JavaScript,
+                        Python, C, M and SQL, Eclipse, and NetBeans development environments and elementary knowledge of the agile Scrum work methodology and the Postman</p>
+                    <div class="main--links">
+                        <a class="main--link main--link_purple" href="./contact.html">Contact</a>
+                        <a class="main--link main--link_white" href="./about.html">About Me</a>
+                    </div>
+                    <div class="main--social-media">
+                        <h2> Follow me: </h2>
+                        <ul>
+                            <li>
+                                <a ref=""> <i class="fa-brands fa-linkedin"> </i> </a>
+                                <a ref=""> <i class="fa-brands fa-instagram-square"></i> </a>
+                                <a ref=""> <i class="fa-brands fa-twitter-square"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
             <ul>
                 <li>
-                    React
+                    <img src="" alt="HTML">
+                    <p>HTML</p>
                 </li>
                 <li>
-                    Vue
+                    <img src="" alt="CSS">
+                    <p>CSS</p>
                 </li>
             </ul>
 
